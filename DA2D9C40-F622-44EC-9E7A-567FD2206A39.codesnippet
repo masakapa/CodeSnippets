@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//iOS7 的一句就搞定了
+[&lt;#tableView#&gt; insertSubview:&lt;#tableBackGroundView#&gt; atIndex:0];
+
+//iOS6
+[&lt;#tableView#&gt; insertSubview:&lt;#tableBackGroundView#&gt; atIndex:0];
+//除此之外
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section;
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section;
+//上面的三个方法若被调用则要在被调用的方法加一句
+[actionTableView sendSubviewToBack:tableBackGroundView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DA2D9C40-F622-44EC-9E7A-567FD2206A39</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableView设置滚动背景</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

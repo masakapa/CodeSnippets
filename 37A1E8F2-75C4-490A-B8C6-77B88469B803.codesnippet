@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>$testFiledOnScroll</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)close
+{
+    [self.view endEditing:YES];
+}
+- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(close) object:nil];
+    &lt;#to do#&gt;
+}
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    [self performSelector:@selector(close) withObject:nil afterDelay:0.01];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37A1E8F2-75C4-490A-B8C6-77B88469B803</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TextFieldOnScroll</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
