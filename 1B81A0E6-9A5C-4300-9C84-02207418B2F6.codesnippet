@@ -27,7 +27,7 @@
 }
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *identify = @"cell";
+    static NSString *identify = @"&lt;#reuserId#&gt;";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identify];
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identify];
