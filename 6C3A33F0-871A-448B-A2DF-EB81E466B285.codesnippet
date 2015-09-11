@@ -7,9 +7,13 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> if ([&lt;#_tableView#&gt; respondsToSelector:@selector(setSeparatorInset:)]) {
-        [&lt;#_tableView#&gt; setSeparatorInset:UIEdgeInsetsZero];
-    }</string>
+	<string>[&lt;#_tableView#&gt; setSeparatorInset:UIEdgeInsetsZero];
+if ([&lt;#_tableView#&gt; respondsToSelector:@selector(setLayoutMargins:)]) {
+    [&lt;#_tableView#&gt; setLayoutMargins:UIEdgeInsetsZero];
+}
+
+// cell 上也要加
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6C3A33F0-871A-448B-A2DF-EB81E466B285</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +21,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tableView IOS7 下去除分割线缩进</string>
+	<string>tableView iOS7、iOS8 下去除分割线缩进</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
