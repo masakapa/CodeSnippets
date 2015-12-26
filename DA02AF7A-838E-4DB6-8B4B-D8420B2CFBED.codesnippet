@@ -23,9 +23,9 @@
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(&lt;#T##identifier: String##String#&gt;, forIndexPath: indexPath);
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(&lt;#T##identifier: String##String#&gt;, forIndexPath: indexPath)
         
-        return cell;
+        return cell
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -&gt; CGSize {
