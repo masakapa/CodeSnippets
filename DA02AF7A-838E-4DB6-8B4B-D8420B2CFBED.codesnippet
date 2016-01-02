@@ -13,11 +13,11 @@
     
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
-        &lt;#code#&gt;
+        return &lt;#code#&gt;
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
-        &lt;#code#&gt;
+        return &lt;#code#&gt;
     }
     
     
@@ -29,7 +29,7 @@
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -&gt; CGSize {
-        &lt;#code#&gt;
+        return &lt;#code#&gt;
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
