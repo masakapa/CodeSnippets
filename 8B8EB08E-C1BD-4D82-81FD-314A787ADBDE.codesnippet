@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>delegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    
+    func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+        return &lt;#code#&gt;
+    }
+
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#code#&gt;
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#T##identifier: String##String#&gt;)
+        return cell
+    }
+
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        &lt;#code#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8B8EB08E-C1BD-4D82-81FD-314A787ADBDE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableView Delegate Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
