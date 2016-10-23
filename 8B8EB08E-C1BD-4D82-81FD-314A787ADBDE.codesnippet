@@ -9,21 +9,20 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    
-    func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
-        return &lt;#code#&gt;
-    }
-
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+	<string>func numberOfSections(in tableView: UITableView) -&gt; Int {
         return &lt;#code#&gt;
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(&lt;#T##identifier: String##String#&gt;)
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#code#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#T##String#&gt;)
         return cell
     }
-
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         &lt;#code#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
