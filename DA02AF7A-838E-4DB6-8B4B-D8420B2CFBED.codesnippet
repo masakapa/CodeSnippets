@@ -12,7 +12,7 @@
 	<string>// MARK: - CollectionDelegate
     
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
+    func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
         return &lt;#code#&gt;
     }
     
