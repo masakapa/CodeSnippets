@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pro</string>
+	<string>var</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (&lt;#strong#&gt;, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;   /**&lt; &lt;#设置属性#&gt; */</string>
+	<string>var &lt;#name#&gt; : &lt;#class#&gt;?</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6B4E3178-6265-4680-A4B8-9EE715E166FE</string>
+	<string>AEE3999F-A24D-49CB-A20E-6242AE2753EC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性</string>
+	<string>var变量</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
