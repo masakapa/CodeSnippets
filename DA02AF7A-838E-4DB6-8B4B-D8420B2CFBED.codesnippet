@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - CollectionDelegate
-    
+	<string>    // MARK: - CollectionDelegate
     
     func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
         return &lt;#code#&gt;
