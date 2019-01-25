@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;   /**&lt; &lt;#设置属性#&gt; */</string>
+	<string>@property (copy  , nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;   /**&lt; &lt;#设置属性#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F7023B36-72D1-4DBF-B053-BC2CD3B2FABF</string>
 	<key>IDECodeSnippetLanguage</key>
