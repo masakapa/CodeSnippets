@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cop</string>
+	<string>dlog</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy  , nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;   /**&lt; &lt;#设置属性#&gt; */</string>
+	<string>DLog(@"%&lt;#@#&gt;",&lt;#value#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7023B36-72D1-4DBF-B053-BC2CD3B2FABF</string>
+	<string>E1E11FBB-8F36-44BD-BEB3-CF92EC6DBDD2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy 属性</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -2,25 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cop</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy  , nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;   /**&lt; &lt;#设置属性#&gt; */</string>
+	<string>- (NSString *)formatFloat:(float)f
+{
+    if (fmodf(f, 1)==0) {//如果有一位小数点
+        return [NSString stringWithFormat:@"%.0f",f];
+    } else if (fmodf(f*10, 1)==0) {//如果有两位小数点
+        return [NSString stringWithFormat:@"%.1f",f];
+    } else {
+        return [NSString stringWithFormat:@"%.2f",f];
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7023B36-72D1-4DBF-B053-BC2CD3B2FABF</string>
+	<string>A95EFD51-6623-4811-BF7A-086A3BCE05DF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>copy 属性</string>
+	<string>保留小树</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
