@@ -6,7 +6,9 @@
 	<string>dispatchafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>CodeBlock</string>
+		<string>StringOrComment</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
