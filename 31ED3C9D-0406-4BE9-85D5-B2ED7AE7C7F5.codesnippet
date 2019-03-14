@@ -4,22 +4,21 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- @class
- @abstract &lt;#这里可以写关于这个类的一些描述。#&gt;
- */</string>
+	<string>#import &lt;&lt;#file#&gt;.h&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6CF96A2B-5459-43D9-906B-332261106DC0</string>
+	<string>31ED3C9D-0406-4BE9-85D5-B2ED7AE7C7F5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>class 注释</string>
+	<string>import</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
