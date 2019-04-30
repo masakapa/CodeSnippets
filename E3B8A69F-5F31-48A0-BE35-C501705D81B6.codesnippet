@@ -2,32 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pod</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>platform :ios, "8.0"
-use_frameworks!
-
-target '' do
-# Swift Pods
-
-#pod 'Alamofire'
-
-end</string>
+	<string>URLCache.shared.removeAllCachedResponses()
+        URLCache.shared.diskCapacity = 0
+        URLCache.shared.memoryCapacity = 0</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>905A2B48-328E-44A5-86F5-48462CCFB2AC</string>
+	<string>E3B8A69F-5F31-48A0-BE35-C501705D81B6</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>添加pod应用内容</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加pod</string>
+	<string>URL清除缓存</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
