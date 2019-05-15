@@ -10,15 +10,15 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import &lt;&lt;#file#&gt;.h&gt;</string>
+	<string>#import "&lt;#file#&gt;.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>31ED3C9D-0406-4BE9-85D5-B2ED7AE7C7F5</string>
+	<string>C2D80FCE-BC66-4C12-97B3-59EB9748AFB4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>import&lt;&gt;</string>
+	<string>import""</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

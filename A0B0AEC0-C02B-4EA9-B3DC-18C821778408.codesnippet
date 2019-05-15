@@ -10,7 +10,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import "&lt;#file#&gt;.h"</string>
+	<string>#import &lt;&lt;#file#&gt;.h&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A0B0AEC0-C02B-4EA9-B3DC-18C821778408</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -18,7 +18,7 @@
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>improt""</string>
+	<string>improt&lt;&gt;</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
