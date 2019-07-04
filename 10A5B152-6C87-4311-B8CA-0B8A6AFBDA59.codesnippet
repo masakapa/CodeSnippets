@@ -3,32 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pod</string>
+	<string>npro</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>platform :ios, "8.0"
-use_frameworks!
-inhibit_all_warnings!
-
-target '' do
-# Swift Pods
-
-#pod 'Alamofire'
-
-end</string>
+	<string>@property (&lt;#strong#&gt;, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;  </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>905A2B48-328E-44A5-86F5-48462CCFB2AC</string>
+	<string>10A5B152-6C87-4311-B8CA-0B8A6AFBDA59</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>添加pod应用内容</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>添加pod</string>
+	<string>无注释属性</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
