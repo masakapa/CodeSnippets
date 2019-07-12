@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)&lt;#methodName#&gt; {
-    
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>42BD50E5-84F2-4CF4-8A44-1406EC001258</string>

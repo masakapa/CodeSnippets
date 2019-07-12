@@ -6,7 +6,7 @@
 	<string>todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// TODO: &lt;#说明文字#&gt;</string>

@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pro</string>
+	<string>btn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (&lt;#strong#&gt;, nonatomic) &lt;#type#&gt; *&lt;#name#&gt;;   /**&lt; &lt;#设置属性#&gt; */</string>
+	<string>- (void)&lt;#methodName#&gt;:(UIButton *)sender {
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6B4E3178-6265-4680-A4B8-9EE715E166FE</string>
+	<string>009F217B-780E-4A44-B9D6-84C34984C346</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性</string>
+	<string>buttonAction</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
