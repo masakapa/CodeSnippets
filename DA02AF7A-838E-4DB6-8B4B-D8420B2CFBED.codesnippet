@@ -19,7 +19,6 @@
         return &lt;#code#&gt;
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &lt;#T##identifier: String##String#&gt;, for: indexPath)

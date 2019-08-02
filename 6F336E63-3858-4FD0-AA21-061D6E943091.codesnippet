@@ -14,7 +14,6 @@
             &lt;#instance#&gt; = [[&lt;#InstanceClass#&gt; alloc] init];
         }
     }
-    
     return &lt;#instance#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
