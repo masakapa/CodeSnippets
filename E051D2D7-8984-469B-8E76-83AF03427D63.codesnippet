@@ -22,7 +22,6 @@
     return cell;
 }
 
-
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return CGSizeMake(&lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);
 }
