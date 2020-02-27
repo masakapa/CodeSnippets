@@ -6,7 +6,7 @@
 	<string>todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// TODO: &lt;#说明文字#&gt;</string>
@@ -16,6 +16,8 @@
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>TODO</string>
 	<key>IDECodeSnippetUserSnippet</key>
