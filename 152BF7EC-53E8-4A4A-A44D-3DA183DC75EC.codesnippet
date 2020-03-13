@@ -3,30 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>fixme</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UILabel *placeHolderLabel = [[UILabel alloc] init];
-    placeHolderLabel.text = @"请输入置为无效原因";
-    placeHolderLabel.numberOfLines = 0;
-    placeHolderLabel.textColor = [UIColor lightGrayColor];
-    [placeHolderLabel sizeToFit];
-    placeHolderLabel.font = [UIFont systemFontOfSize:15];
-    [self.remarkTextView addSubview:placeHolderLabel];
-    [self.remarkTextView setValue:placeHolderLabel forKey:@"_placeholderLabel"];</string>
+	<string>// FIXME: &lt;#说明#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>20D83C83-DCCF-4B13-AE1F-B55D313DA041</string>
+	<string>152BF7EC-53E8-4A4A-A44D-3DA183DC75EC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>placeholder</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UITextView</string>
+	<string>Fixme</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
