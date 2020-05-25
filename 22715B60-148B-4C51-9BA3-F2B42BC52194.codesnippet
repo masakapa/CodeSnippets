@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/// &lt;#设置属性#&gt;
-@property (copy, nonatomic) void(^&lt;#name#&gt;)(&lt;#void#&gt;);</string>
+@property (copy, nonatomic) &lt;#void#&gt;(^&lt;#name#&gt;)(&lt;#void#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>22715B60-148B-4C51-9BA3-F2B42BC52194</string>
 	<key>IDECodeSnippetLanguage</key>
