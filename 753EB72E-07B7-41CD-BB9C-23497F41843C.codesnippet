@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>void</string>
+	<string>method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#methodName#&gt; {
-    &lt;#code#&gt;
-}</string>
+	<string>- (&lt;#void#&gt;)&lt;#methodName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>42BD50E5-84F2-4CF4-8A44-1406EC001258</string>
+	<string>753EB72E-07B7-41CD-BB9C-23497F41843C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -21,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>创建方法</string>
+	<string>method 声明</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
