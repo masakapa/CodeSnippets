@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func numberOfSections(in tableView: UITableView) -&gt; Int {
+	<string>    func numberOfSections(in tableView: UITableView) -&gt; Int {
         return &lt;#code#&gt;
     }
     
@@ -29,6 +29,8 @@
 	<string>8B8EB08E-C1BD-4D82-81FD-314A787ADBDE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>TableView Delegate Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>

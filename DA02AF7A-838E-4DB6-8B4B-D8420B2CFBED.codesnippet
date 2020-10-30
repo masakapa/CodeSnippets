@@ -20,9 +20,7 @@
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
-        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &lt;#T##identifier: String##String#&gt;, for: indexPath)
-        
         return cell
     }
     
@@ -51,6 +49,8 @@
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>CollectionView Delegate Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
