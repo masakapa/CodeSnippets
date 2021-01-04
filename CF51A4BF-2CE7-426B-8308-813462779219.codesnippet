@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prostring</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#设置属性#&gt;
-@property (copy  , nonatomic&lt;#, nullable#&gt;) NSString *&lt;#name#&gt;;</string>
+	<string>[[UIImage feed_imageNamed:@"mi_feed_screen"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D76E5A32-736D-4127-91B3-8BE1928AF56C</string>
+	<string>CF51A4BF-2CE7-426B-8308-813462779219</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSString属性</string>
+	<string>图片显示本来颜色</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

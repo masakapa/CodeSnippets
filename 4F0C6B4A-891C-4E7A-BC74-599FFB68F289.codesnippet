@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prostring</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#设置属性#&gt;
-@property (copy  , nonatomic&lt;#, nullable#&gt;) NSString *&lt;#name#&gt;;</string>
+	<string>#ifdef DEBUG
+#define DLog(...) printf("%s %s %s 第%d行: %s\n",__TIME__, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __PRETTY_FUNCTION__ , __LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String]);
+#else
+#define DLog( s, ... )
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D76E5A32-736D-4127-91B3-8BE1928AF56C</string>
+	<string>4F0C6B4A-891C-4E7A-BC74-599FFB68F289</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSString属性</string>
+	<string>DLog 打印完全</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
