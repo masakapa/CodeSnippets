@@ -9,7 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static NSString * const &lt;#name#&gt; = @"&lt;#value#&gt;";</string>
+	<string>static &lt;#NSString *#&gt; const &lt;#name#&gt; = &lt;#@"value"#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3A780251-C6B0-4AB0-A49C-C150F7D49050</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>constString</string>
+	<string>constValue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
