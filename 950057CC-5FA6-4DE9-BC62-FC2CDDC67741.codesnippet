@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>constVal</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static &lt;#NSString *#&gt; const &lt;#name#&gt; = &lt;#@"value"#&gt;;</string>
+	<string>CGFloat fixelW = CGImageGetWidth(image.CGImage);
+        CGFloat fixelH = CGImageGetHeight(image.CGImage);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A780251-C6B0-4AB0-A49C-C150F7D49050</string>
+	<string>950057CC-5FA6-4DE9-BC62-FC2CDDC67741</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>constValue</string>
+	<string>UIImage 获取宽高</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
