@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>staticVal</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static &lt;#NSString *#&gt; const &lt;#name#&gt; = &lt;#@"value"#&gt;;</string>
+	<string>// .h 文件
+typedef NSString MIRedPacketStatus;
+extern MIRedPacketStatus * const RED_PACKET_STATUS_UNKNOW;//未知状态
+
+// .m 文件
+MIRedPacketStatus * const RED_PACKET_STATUS_UNKNOW = @"Unknown";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3A780251-C6B0-4AB0-A49C-C150F7D49050</string>
+	<string>36A733CC-81FA-48B3-8C37-59EEE274DBDD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>staticVal</string>
+	<string>定义全局常量</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
