@@ -9,15 +9,16 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>view.transform = CGAffineTransformTranslate(self.indicatorView.transform, 0, 0);</string>
+	<string>*stop = true; // 结束循环，并执行
+return; // 立马跳出循环</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>89178A30-A10A-41A5-BA7D-0B6038B54E62</string>
+	<string>93421A20-DCAD-4EC3-8F9B-4002EC07B624</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>transform</string>
+	<string>enumerate 循环跳出</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
