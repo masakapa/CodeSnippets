@@ -9,7 +9,9 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    func numberOfSections(in tableView: UITableView) -&gt; Int {
+	<string>    // MARK: - tableview Delegate
+    
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
         return &lt;#code#&gt;
     }
     
