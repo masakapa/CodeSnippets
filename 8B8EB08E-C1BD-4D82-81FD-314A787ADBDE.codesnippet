@@ -19,13 +19,21 @@
         return &lt;#code#&gt;
     }
     
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+        return &lt;#UITableView.automaticDimension#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+        return &lt;#UITableView.automaticDimension#&gt;
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#T##String#&gt;)
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        &lt;#code#&gt;
+        
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8B8EB08E-C1BD-4D82-81FD-314A787ADBDE</string>
