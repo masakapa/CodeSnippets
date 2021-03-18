@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>subscribeOnNext</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        //!&lt; ··· &lt;#注释#&gt;</string>
+	<string>subscribe(onNext: {(&lt;#elemt#&gt;) in
+                &lt;#code#&gt;
+            }).disposed(by: &lt;#disposeBag#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5F05EC83-8D39-4761-83D5-6B075931773B</string>
+	<string>16396C4D-57B0-4553-9C4D-FC5E438826FC</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>单行行尾注释</string>
+	<string>subscribeNext</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
