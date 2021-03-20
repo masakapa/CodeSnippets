@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>defcolor</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// rgb颜色转换（16进制-&gt;10进制）
@@ -14,7 +14,7 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>83E560E6-521C-4465-A11F-E8AF5A873DB7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>通过颜色16进制代码设置颜色</string>
 	<key>IDECodeSnippetTitle</key>
