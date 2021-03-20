@@ -3,21 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>/</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        //!&lt; ··· &lt;#注释#&gt;</string>
+	<string>extension UIApplication {
+    func topWindow() -&gt; UIWindow? {
+        if #available(iOS 13.0, *) {
+            for window in self.windows {
+                if window.isKeyWindow {
+                    return window
+                }
+            }
+            return self.windows.last
+        } else {
+            return self.keyWindow
+        }
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5F05EC83-8D39-4761-83D5-6B075931773B</string>
+	<string>2102DCAA-5C80-49BE-ABE3-CD1CC00DD5BB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>单行行尾注释</string>
+	<string>topcontroller</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

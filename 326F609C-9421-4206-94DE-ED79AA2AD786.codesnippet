@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>/</string>
+	<string>pfv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        //!&lt; ··· &lt;#注释#&gt;</string>
+	<string>private func &lt;#method#&gt;() {
+        
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5F05EC83-8D39-4761-83D5-6B075931773B</string>
+	<string>326F609C-9421-4206-94DE-ED79AA2AD786</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>单行行尾注释</string>
+	<string>swift private方法</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
