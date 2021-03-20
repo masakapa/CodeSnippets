@@ -3,32 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>inputOutPut</string>
+	<string>rmc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct Input {
-        
-    }
-    
-    struct Output {
-        
-    }
-    
-    func transform(input: Input) -&gt; Output {
-        
-        return Output()
-    }</string>
+	<string>snp_remakeConstraints { (maker) in
+    &lt;#maker#&gt;
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F8D8ED51-0980-4C5D-B4F7-9CDAE1B10262</string>
+	<string>A2C2BE00-B5B6-46F5-9875-52BEA72A580A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ViewModel</string>
+	<string>snp 重设约束</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -11,7 +11,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>snp.makeConstraints { (maker) in
-            &lt;#code#&gt;
+    &lt;#maker#&gt;
         }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>54501729-36A7-4831-B1F1-26ADA0B59F1E</string>
@@ -24,6 +24,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
