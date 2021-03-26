@@ -6,7 +6,7 @@
 	<string>/</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        //!&lt; ··· &lt;#注释#&gt;</string>

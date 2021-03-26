@@ -10,8 +10,8 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>snp_updateConstraints { (maker) in
-            &lt;#maker#&gt;
+	<string>snp_updateConstraints { (make) in
+    &lt;#make#&gt;
         }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3E7F214B-4FE2-4E6B-8FCD-79053CD94FCC</string>

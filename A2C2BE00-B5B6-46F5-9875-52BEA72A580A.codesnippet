@@ -10,8 +10,8 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>snp_remakeConstraints { (maker) in
-    &lt;#maker#&gt;
+	<string>snp_remakeConstraints { (make) in
+    &lt;#make#&gt;
         }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A2C2BE00-B5B6-46F5-9875-52BEA72A580A</string>

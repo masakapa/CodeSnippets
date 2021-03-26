@@ -6,12 +6,12 @@
 	<string>smc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
 		<string>TopLevel</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>snp.makeConstraints { (maker) in
-    &lt;#maker#&gt;
+	<string>snp.makeConstraints { (make) in
+    &lt;#make#&gt;
         }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>54501729-36A7-4831-B1F1-26ADA0B59F1E</string>
