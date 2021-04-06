@@ -6,11 +6,11 @@
 	<string>delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: - CollectionDelegate
-    
+	<string>// MARK: - CollectionDelegate
+extension &lt;#class#&gt;: UICollectionViewDelegate, UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -&gt; Int {
         return &lt;#code#&gt;
     }
@@ -42,7 +42,8 @@
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         
-    }</string>
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA02AF7A-838E-4DB6-8B4B-D8420B2CFBED</string>
 	<key>IDECodeSnippetLanguage</key>
