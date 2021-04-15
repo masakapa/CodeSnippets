@@ -14,7 +14,7 @@
         layout.minimumLineSpacing = 12
         layout.minimumInteritemSpacing = 15
         layout.scrollDirection = .vertical
-        layout.itemSize = CGSize(width: (MAINSCREEN_WIDTH-60)/3, height: 36)
+        layout.itemSize = CGSize(width: &lt;#width#&gt;, height: &lt;#height#&gt;)
         layout.estimatedItemSize = CGSize(width: MAINSCREEN_WIDTH, height: 40)
         layout.sectionInset = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)
         
@@ -24,8 +24,8 @@
         collection.dataSource = self
         collection.showsVerticalScrollIndicator = false
         collection.showsHorizontalScrollIndicator = false
-        collection.register(cellType: ScreenCell.self)
-        collection.register(supplementaryViewType: ScreenHeaderView.self, ofKind: UICollectionView.elementKindSectionHeader)
+        collection.register(cellType: &lt;#class#&gt;.self)
+        collection.register(supplementaryViewType: &lt;#class#&gt;.self, ofKind: UICollectionView.elementKindSectionHeader)
         return collection
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
