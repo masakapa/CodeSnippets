@@ -18,7 +18,7 @@
         let currentDate = Date()
         let calendar = Calendar.current
         let diffDateComponents = calendar.dateComponents([.day, .hour, .minute, .second], from: currentDate, to: Date(timeIntervalSince1970: self.model.expiredTime))
-        let countdown = String(format: "%.d:%.2d:%.2d", (diffDateComponents.hour ?? 0), (diffDateComponents.minute ?? 0), (diffDateComponents.second ?? 0))
+        let countdown = String(format: "%.2d:%.2d:%.2d", (diffDateComponents.hour ?? 0), (diffDateComponents.minute ?? 0), (diffDateComponents.second ?? 0))
         self.countDownLabel.text = "签约倒计时：\(countdown)"
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
