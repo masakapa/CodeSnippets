@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct AssociatedKey {
+        static var navbarStyleKey = "navbarStyleKey"
+    }
+
+    var navbarStyle : NavStyle? {
+        set {
+            objc_setAssociatedObject(self, &amp;(AssociatedKey.navbarStyleKey), newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_COPY_NONATOMIC)
+        }
+        
+        get {
+            if let value = objc_getAssociatedObject(self, &amp;(AssociatedKey.navbarStyleKey)) as? NavStyle {
+                return value
+            }
+            return nil
+        }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>24BFF389-611B-4AED-A56B-323E4BC4ED19</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift extension 添加属性</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
