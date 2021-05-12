@@ -9,11 +9,15 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let phoneUrlStr = "telprompt://"
-        guard let url = URL(string: phoneUrlStr) else { return }
-        if UIApplication.shared.canOpenURL(url) {
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }</string>
+	<string>/// 拨打电话
+func makePhoneCall(mobile: String) {
+    let phoneURL = "telprompt://" + mobile
+    guard let url = URL(string: phoneURL) else { return }
+    if UIApplication.shared.canOpenURL(url) {
+        UIApplication.shared.openURL(url)
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AC0EDC09-D256-4E6D-ADB6-B98E14828665</string>
 	<key>IDECodeSnippetLanguage</key>
