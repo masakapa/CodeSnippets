@@ -9,23 +9,22 @@
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-                let cs = NSCharacterSet(charactersIn: str).inverted
-                let filterd = string.components(separatedBy: cs).joined(separator: "")
-                if string != filterd {
-                    return false
-                }</string>
+	<string>let str = NSMutableAttributedString(string: "*备注")
+                let attribute = [NSAttributedString.Key.foregroundColor : UIColor(hexString: "#545558")!]
+                str.setAttributes(attribute, range: NSRange(location: 1, length: str.length - 1))
+                str.setAttributes([NSAttributedString.Key.foregroundColor: UIColor(hexString: "#FE5E49")!], range: NSRange(location: 0, length: 1))
+                self.remarkTitleLabel.attributedText = str</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>39C7CC0C-40CE-4593-AF5C-E87E5E1B5577</string>
+	<string>093A466C-3C9B-41C7-A340-A1CD84841BD3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>限制输入条件</string>
+	<string>attributeString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
